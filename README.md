@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pokemon Search Application is a full-stack web application developed using Spring Boot and ReactJS. The application allows users to search for Pokémon by name and view detailed information fetched from the PokeAPI.
+Pokemon Search Application is a full-stack web application developed using Spring Boot, HTML, CSS, and JavaScript. The application allows users to search for Pokémon by name and view detailed information fetched from the PokeAPI.
 
 The backend exposes RESTful APIs, handles caching for improved performance, and manages error handling. The frontend provides a responsive and user-friendly interface for displaying Pokémon information.
 
