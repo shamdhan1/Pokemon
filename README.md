@@ -70,7 +70,7 @@ GET /api/pokemon/pikachu
 
 ```bash
 mvn clean install
-java -jar target/pokedex-backend.jar
+java -jar target/pokedex-backend-0.0.1-SNAPSHOT.jar
 ```
  URL:
 
