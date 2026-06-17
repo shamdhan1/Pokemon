@@ -8,7 +8,7 @@ The backend exposes RESTful APIs, handles caching for improved performance, and 
 
 ## Features
 
-* Search Pokémon by name
+* Search Pokémon by name, e.g., Pikachu, Bulbasaur, Charizard, Squirtle, Gengar, Snorlax
 * View Pokémon details such as:
 
   * Name
