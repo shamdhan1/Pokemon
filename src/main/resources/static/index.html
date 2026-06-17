@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Search</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="shell">
+    <section class="search-panel" aria-label="Pokemon search">
+        <div>
+            <p class="eyebrow">Pokedex</p>
+            <h1>Pokemon Search</h1>
+        </div>
+        <form id="search-form" class="search-form">
+            <label for="pokemon-name">Pokemon name</label>
+            <div class="search-row">
+                <input id="pokemon-name" name="name" type="search" placeholder="pikachu" autocomplete="off" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <p id="status" class="status" role="status"></p>
+    </section>
+
+    <section id="result" class="result is-empty" aria-live="polite">
+        <div class="empty-state">
+            <h2>Find any Pokemon by name.</h2>
+            <p>Try charizard, bulbasaur, squirtle, or mr-mime.</p>
+        </div>
+    </section>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
